@@ -33,7 +33,7 @@ export default function BalanceCard({ tokenAddress }: Props) {
       {!isContractMetadataLoading ? (
         <Stack textAlign={"center"}>
           <Text fontWeight={"bold"} fontSize={"2xl"}>
-            {contractMetadata.symbol}
+            {contractMetadata?.symbol ?? ""}
           </Text>
           <Text>Balance:</Text>
           {!isTokenBalanceLoading ? (
