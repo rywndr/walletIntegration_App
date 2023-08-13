@@ -1,5 +1,11 @@
 import type { AppProps } from "next/app"
-import { ThirdwebProvider } from "@thirdweb-dev/react"
+import {
+  ThirdwebProvider,
+  coinbaseWallet,
+  localWallet,
+  metamaskWallet,
+  walletConnect,
+} from "@thirdweb-dev/react"
 import { ChakraProvider } from "@chakra-ui/react"
 import Navbar from "../components/navbar"
 
@@ -13,6 +19,12 @@ function MyApp({ Component, pageProps }: AppProps) {
     <ThirdwebProvider
       clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}
       activeChain={activeChain}
+      supportedWallets={[
+        metamaskWallet(),
+        coinbaseWallet(),
+        walletConnect(),
+        localWallet(),
+      ]}
     >
       <ChakraProvider>
         <Navbar />
