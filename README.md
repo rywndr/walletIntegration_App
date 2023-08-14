@@ -13,7 +13,7 @@ npx run dev
 ```
 
 
-This site was built using [GitHub Pages](https://pages.github.com/](https://walletintegration.vercel.app/).
+View [demoApp]([https://pages.github.com/](https://walletintegration.vercel.app/)).
 view [writeUp](https://docs.thirdweb.com/react](https://medium.com/@haikhalroy/thematic-bounty-wallet-integration-tutorial-4608415726c7)
 
 ## Learn More
