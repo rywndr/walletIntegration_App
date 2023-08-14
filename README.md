@@ -3,13 +3,17 @@
 
 To use this project:
 
+clone
 ```bash
-npx install
+git clone https://github.com/rywndr/walletIntegration_App.git
 ```
-after installing all of the dependencies, run:
-
+install dependencies
 ```bash
-npx run dev
+npm install
+```
+run dev server
+```bash
+npm run dev
 ```
 
 
