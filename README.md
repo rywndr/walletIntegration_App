@@ -14,7 +14,7 @@ npx run dev
 
 
 View [demoApp](https://pages.github.com/](https://walletintegration.vercel.app/)).
-view [writeUp](https://docs.thirdweb.com/react](https://medium.com/@haikhalroy/thematic-bounty-wallet-integration-tutorial-4608415726c7)
+View [writeUp](https://medium.com/@haikhalroy/thematic-bounty-wallet-integration-tutorial-4608415726c7).
 
 ## Learn More
 
